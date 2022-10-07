@@ -1,0 +1,6 @@
+15:16:25 - Couldn't send message: [1200|148||PING|1400]
+15:16:25 - Couldn't send message: [1200|154||BACKUP|1400]
+15:16:27 - Couldn't send message: [1200|160||SUSPICIOUS_PING|1400]
+15:16:32 - Couldn't send message: [1200|180||SUSPICIOUS_PING|1400]
+15:16:35 - Couldn't send message: [1200|198||SUSPICIOUS_PING|1400]
+15:16:40 - Tried to start drawing while already drawing.

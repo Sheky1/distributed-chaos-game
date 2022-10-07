@@ -1,0 +1,13 @@
+pause 70000
+pause 5000
+pause 5000
+start square_job
+pause 5000
+pause 5000
+stop_drawing square_job
+pause 5000
+pause 5000
+result square_job
+pause 5000
+pause 5000
+stop

@@ -1,0 +1,821 @@
+15:15:41 - Added all of the pictures to draw. [Picture{name='first_job', dot_count=3, proportion=0.5, width=900, height=900, startingDots=[Dot{x=450, y=0}, Dot{x=0, y=900}, Dot{x=900, y=900}]}]
+15:15:41 - Starting servent ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}
+15:15:41 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:15:41 - Pausing for 30000 ms
+15:15:42 - Sending message [1500|0|1500|NEW_NODE|1100]
+15:15:43 - Got message [1100|41|1500|NEW_NODE|1500]
+Added new node with port: 1500. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}] as neighbors.
+15:15:43 - Got message [1100|42||WELCOME|1500]
+Added a neighbor that welcomed me with port: 1100. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}] as neighbors.
+15:15:44 - Got message [1200|33||WELCOME|1500]
+Added a neighbor that welcomed me with port: 1200. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}] as neighbors.
+15:15:44 - Got message [1300|27||WELCOME|1500]
+Added a neighbor that welcomed me with port: 1300. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}] as neighbors.
+15:15:44 - Sending message [1500|1||WELCOME|1500]
+15:15:44 - Got message [1500|1||WELCOME|1500]
+Added a neighbor that welcomed me with port: 1500. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}] as neighbors.
+15:15:44 - Got message [1200|37||PING|1500]
+15:15:45 - Got message [1400|18||WELCOME|1500]
+Added a neighbor that welcomed me with port: 1400. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}] as neighbors.
+15:15:45 - Sending message [1500|2||PONG|1200]
+15:15:45 - Expected unsuspicious ports: [] and I got pongs from: []
+15:15:45 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:15:46 - Sending message [1500|5||PING|1300]
+15:15:46 - Sending message [1500|3||PING|1100]
+15:15:46 - Got message [1100|49||PING|1500]
+15:15:47 - Got message [1300|33||PING|1500]
+15:15:47 - Sending message [1500|6||PING|1400]
+15:15:47 - Sending message [1500|4||PING|1200]
+15:15:47 - Got message [1300|34||PONG|1500]
+15:15:47 - Got a pong message
+15:15:47 - Sending message [1500|7||PONG|1100]
+15:15:47 - Got message [1100|51||PONG|1500]
+15:15:47 - Got a pong message
+15:15:48 - Sending message [1500|8||PONG|1300]
+15:15:48 - Got message [1200|41||PONG|1500]
+15:15:48 - Got a pong message
+15:15:48 - Got message [1400|21||PONG|1500]
+15:15:48 - Got a pong message
+15:15:48 - Got message [1400|26||PING|1500]
+15:15:48 - Got message [1200|45||PING|1500]
+15:15:49 - Sending message [1500|10||PONG|1200]
+15:15:49 - Sending message [1500|9||PONG|1400]
+15:15:49 - Expected unsuspicious ports: [1100, 1200, 1300, 1400] and I got pongs from: [1300, 1100, 1200, 1400]
+15:15:49 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:15:49 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:15:50 - Sending message [1500|14||PING|1400]
+15:15:50 - Sending message [1500|11||PING|1100]
+15:15:50 - Got message [1100|57||PING|1500]
+15:15:50 - Sending message [1500|12||PING|1200]
+15:15:50 - Got message [1300|41||PING|1500]
+15:15:50 - Sending message [1500|15||PONG|1100]
+15:15:51 - Sending message [1500|13||PING|1300]
+15:15:51 - Got message [1100|58||PONG|1500]
+15:15:51 - Got a pong message
+15:15:51 - Got message [1400|28||PONG|1500]
+15:15:51 - Got a pong message
+15:15:51 - Sending message [1500|16||PONG|1300]
+15:15:51 - Got message [1300|43||PONG|1500]
+15:15:51 - Got a pong message
+15:15:51 - Got message [1200|47||PONG|1500]
+15:15:51 - Got a pong message
+15:15:52 - Got message [1200|53||PING|1500]
+15:15:53 - Sending message [1500|17||PONG|1200]
+15:15:53 - Got message [1400|34||PING|1500]
+15:15:53 - Expected unsuspicious ports: [1100, 1200, 1300, 1400] and I got pongs from: [1100, 1400, 1300, 1200]
+15:15:53 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:15:53 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:15:53 - Sending message [1500|18||PONG|1400]
+15:15:54 - Got message [1100|65|1600|NEW_NODE|1500]
+Added new node with port: 1600. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1600}] as neighbors.
+15:15:54 - Got message [1100|71||PING|1500]
+15:15:54 - Got message [1300|49||PING|1500]
+15:15:54 - Sending message [1500|21||PING|1300]
+15:15:54 - Sending message [1500|22||PING|1400]
+15:15:55 - Sending message [1500|19||PING|1100]
+15:15:55 - Sending message [1500|24||PONG|1100]
+15:15:55 - Sending message [1500|23||WELCOME|1600]
+15:15:55 - Sending message [1500|20||PING|1200]
+15:15:55 - Got message [1300|52||PONG|1500]
+15:15:55 - Got a pong message
+15:15:55 - Got message [1400|38||PONG|1500]
+15:15:55 - Got a pong message
+15:15:55 - Sending message [1500|25||PONG|1300]
+15:15:56 - Got message [1200|58||PONG|1500]
+15:15:56 - Got a pong message
+15:15:56 - Got message [1600|7||PING|1500]
+15:15:56 - Got message [1100|74||PONG|1500]
+15:15:56 - Got a pong message
+15:15:56 - Got message [1400|43||PING|1500]
+15:15:57 - Got message [1200|62||PING|1500]
+15:15:57 - Sending message [1500|27||PONG|1400]
+15:15:57 - Sending message [1500|26||PONG|1600]
+15:15:57 - Expected unsuspicious ports: [1100, 1200, 1300, 1400] and I got pongs from: [1300, 1400, 1200, 1100]
+15:15:57 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:15:57 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:15:57 - Sending message [1500|28||PONG|1200]
+15:15:58 - Sending message [1500|33||PING|1600]
+15:15:58 - Got message [1300|59||PING|1500]
+15:15:58 - Sending message [1500|32||PING|1400]
+15:15:58 - Sending message [1500|29||PING|1100]
+15:15:59 - Sending message [1500|31||PING|1300]
+15:15:59 - Sending message [1500|30||PING|1200]
+15:15:59 - Got message [1100|81||PING|1500]
+15:15:59 - Got message [1600|10||PONG|1500]
+15:15:59 - Got a pong message
+15:15:59 - Sending message [1500|34||PONG|1300]
+15:15:59 - Got message [1100|83||PONG|1500]
+15:15:59 - Got a pong message
+15:15:59 - Sending message [1500|35||PONG|1100]
+15:16:00 - Got message [1400|48||PONG|1500]
+15:16:00 - Got a pong message
+15:16:00 - Got message [1200|68||PONG|1500]
+15:16:00 - Got a pong message
+15:16:00 - Got message [1300|62||PONG|1500]
+15:16:00 - Got a pong message
+15:16:00 - Got message [1200|72||PING|1500]
+15:16:00 - Got message [1400|53||PING|1500]
+15:16:00 - Got message [1600|17||PING|1500]
+15:16:01 - Sending message [1500|36||PONG|1200]
+15:16:01 - Expected unsuspicious ports: [1100, 1200, 1300, 1400, 1600] and I got pongs from: [1600, 1100, 1400, 1200, 1300]
+15:16:01 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:01 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:02 - Sending message [1500|37||PONG|1400]
+15:16:02 - Sending message [1500|38||PONG|1600]
+15:16:02 - Sending message [1500|41||PING|1300]
+15:16:02 - Got message [1300|69||PING|1500]
+15:16:02 - Got message [1100|91||PING|1500]
+15:16:02 - Got message [1300|71||PONG|1500]
+15:16:02 - Got a pong message
+15:16:02 - Sending message [1500|39||PING|1100]
+15:16:03 - Sending message [1500|43||PING|1600]
+15:16:03 - Sending message [1500|42||PING|1400]
+15:16:03 - Sending message [1500|40||PING|1200]
+15:16:03 - Got message [1600|22||PONG|1500]
+15:16:03 - Got a pong message
+15:16:03 - Got message [1100|97|1700|NEW_NODE|1500]
+Added new node with port: 1700. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1600}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1700}] as neighbors.
+15:16:03 - Sending message [1500|44||PONG|1300]
+15:16:04 - Sending message [1500|45||PONG|1100]
+15:16:04 - Got message [1100|101||PONG|1500]
+15:16:04 - Got a pong message
+15:16:04 - Got message [1400|58||PONG|1500]
+15:16:04 - Got a pong message
+15:16:04 - Got message [1600|27||PING|1500]
+15:16:04 - Got message [1200|78||PONG|1500]
+15:16:04 - Got a pong message
+15:16:04 - Sending message [1500|46||WELCOME|1700]
+15:16:04 - Got message [1200|83||PING|1500]
+15:16:04 - Got message [1400|63||PING|1500]
+15:16:05 - Sending message [1500|49||PONG|1400]
+15:16:05 - Sending message [1500|47||PONG|1600]
+15:16:05 - Expected unsuspicious ports: [1100, 1200, 1300, 1400, 1600] and I got pongs from: [1300, 1600, 1100, 1400, 1200]
+15:16:05 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:05 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:06 - Sending message [1500|48||PONG|1200]
+15:16:06 - Sending message [1500|54||PING|1600]
+15:16:06 - Sending message [1500|51||PING|1200]
+15:16:06 - Got message [1300|80||PING|1500]
+15:16:06 - Got message [1700|5||PING|1500]
+15:16:06 - Sending message [1500|53||PING|1400]
+15:16:06 - Got message [1100|108||PING|1500]
+15:16:06 - Sending message [1500|55||PING|1700]
+15:16:07 - Got message [1600|31||PONG|1500]
+15:16:07 - Got a pong message
+15:16:07 - Sending message [1500|56||PONG|1300]
+15:16:07 - Sending message [1500|52||PING|1300]
+15:16:07 - Sending message [1500|50||PING|1100]
+15:16:07 - Got message [1400|70||PONG|1500]
+15:16:07 - Got a pong message
+15:16:07 - Got message [1700|11||PONG|1500]
+15:16:07 - Got a pong message
+15:16:07 - Got message [1200|88||PONG|1500]
+15:16:07 - Got a pong message
+15:16:07 - Sending message [1500|57||PONG|1700]
+15:16:07 - Got message [1300|85||PONG|1500]
+15:16:07 - Got a pong message
+15:16:07 - Got message [1100|113||PONG|1500]
+15:16:07 - Got a pong message
+15:16:08 - Sending message [1500|58||PONG|1100]
+15:16:08 - Got message [1200|95||PING|1500]
+15:16:08 - Got message [1600|39||PING|1500]
+15:16:09 - Sending message [1500|59||PONG|1200]
+15:16:09 - Got message [1400|75||PING|1500]
+15:16:09 - Expected unsuspicious ports: [1100, 1200, 1300, 1400, 1600, 1700] and I got pongs from: [1600, 1400, 1700, 1200, 1300, 1100]
+15:16:09 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:09 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:09 - Sending message [1500|60||PONG|1600]
+15:16:10 - Sending message [1500|61||PONG|1400]
+15:16:10 - Got message [1300|92||PING|1500]
+15:16:10 - Sending message [1500|63||PING|1200]
+15:16:10 - Sending message [1500|67||PING|1700]
+15:16:10 - Sending message [1500|66||PING|1600]
+15:16:10 - Sending message [1500|62||PING|1100]
+15:16:11 - Got message [1700|17||PING|1500]
+15:16:11 - Sending message [1500|64||PING|1300]
+15:16:11 - Got message [1100|120||PING|1500]
+15:16:11 - Sending message [1500|65||PING|1400]
+15:16:11 - Got message [1700|21||PONG|1500]
+15:16:11 - Got a pong message
+15:16:11 - Got message [1200|100||PONG|1500]
+15:16:11 - Got a pong message
+15:16:11 - Sending message [1500|68||PONG|1300]
+15:16:11 - Sending message [1500|69||PONG|1700]
+15:16:11 - Got message [1600|43||PONG|1500]
+15:16:11 - Got a pong message
+15:16:11 - Pausing for 5000 ms
+15:16:12 - Sending message [1500|70||PONG|1100]
+15:16:12 - Got message [1300|97||PONG|1500]
+15:16:12 - Got a pong message
+15:16:12 - Got message [1100|125||PONG|1500]
+15:16:12 - Got a pong message
+15:16:12 - Got message [1400|83||PONG|1500]
+15:16:12 - Got a pong message
+15:16:12 - Got message [1600|51||PING|1500]
+15:16:13 - Got message [1400|87||PING|1500]
+15:16:13 - Got message [1200|107||PING|1500]
+15:16:13 - Expected unsuspicious ports: [1100, 1200, 1300, 1400, 1600, 1700] and I got pongs from: [1700, 1200, 1600, 1300, 1100, 1400]
+15:16:13 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:13 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:14 - Sending message [1500|71||PONG|1600]
+15:16:14 - Sending message [1500|72||PONG|1400]
+15:16:14 - Sending message [1500|73||PONG|1200]
+15:16:14 - Sending message [1500|79||PING|1700]
+15:16:14 - Got message [1100|132||PING|1500]
+15:16:14 - Sending message [1500|74||PING|1100]
+15:16:14 - Sending message [1500|78||PING|1600]
+15:16:14 - Got message [1300|104||PING|1500]
+15:16:14 - Got message [1700|29||PING|1500]
+15:16:15 - Sending message [1500|75||PING|1200]
+15:16:15 - Sending message [1500|76||PING|1300]
+15:16:15 - Sending message [1500|77||PING|1400]
+15:16:15 - Got message [1700|33||PONG|1500]
+15:16:15 - Got a pong message
+15:16:15 - Got message [1100|137||PONG|1500]
+15:16:15 - Got a pong message
+15:16:15 - Sending message [1500|80||PONG|1100]
+15:16:15 - Sending message [1500|81||PONG|1300]
+15:16:15 - Got message [1300|109||PONG|1500]
+15:16:15 - Got a pong message
+15:16:16 - Sending message [1500|82||PONG|1700]
+15:16:16 - Got message [1600|56||PONG|1500]
+15:16:16 - Got a pong message
+15:16:16 - Got message [1200|114||PONG|1500]
+15:16:16 - Got a pong message
+15:16:16 - Got message [1400|95||PONG|1500]
+15:16:16 - Got a pong message
+15:16:16 - Got message [1400|99||PING|1500]
+15:16:16 - Pausing for 5000 ms
+15:16:17 - Got message [1200|119||PING|1500]
+15:16:17 - Got message [1600|63||PING|1500]
+15:16:17 - Expected unsuspicious ports: [1100, 1200, 1300, 1400, 1600, 1700] and I got pongs from: [1700, 1100, 1300, 1600, 1200, 1400]
+15:16:17 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:17 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:18 - Sending message [1500|85||PONG|1600]
+15:16:18 - Sending message [1500|83||PONG|1400]
+15:16:18 - Got message [1100|144||START_DRAWING|1500]
+15:16:18 - Sending message [1500|84||PONG|1200]
+15:16:18 - Got message [1300|116||PING|1500]
+15:16:18 - Got message [1100|150||PING|1500]
+15:16:18 - Sending message [1500|86||PING|1100]
+15:16:18 - Sending message [1500|87||PING|1200]
+15:16:18 - Got message [1700|41||PING|1500]
+15:16:18 - My frame is: [Dot{x=337, y=675}, Dot{x=225, y=900}, Dot{x=450, y=900}]
+15:16:18 - Started drawing a new picture. Added a random first point at Dot{x=779, y=338}.
+15:16:18 - Sending message [1500|91||PING|1700]
+15:16:19 - Sending message [1500|88||PING|1300]
+15:16:19 - Sending message [1500|89||PING|1400]
+15:16:19 - Got message [1100|156||BACKUP|1500]
+15:16:19 - Sending message [1500|93||PONG|1100]
+15:16:19 - Sending message [1500|90||PING|1600]
+15:16:19 - Sending message [1500|94||PONG|1700]
+15:16:19 - Sending message [1500|92||PONG|1300]
+15:16:19 - Got message [1100|159||PONG|1500]
+15:16:19 - Got a pong message
+15:16:19 - Got message [1300|119||PONG|1500]
+15:16:19 - Got a pong message
+15:16:19 - Got message [1200|125||PONG|1500]
+15:16:19 - Got a pong message
+15:16:20 - Got message [1700|46||PONG|1500]
+15:16:20 - Got a pong message
+15:16:20 - Got message [1400|117||BACKUP|1500]
+15:16:20 - Got message [1400|106||PONG|1500]
+15:16:20 - Got a pong message
+15:16:20 - Got message [1600|70||PONG|1500]
+15:16:20 - Got a pong message
+15:16:20 - Got message [1600|75||PING|1500]
+15:16:20 - Got message [1200|131||PING|1500]
+15:16:20 - Got message [1600|81||BACKUP|1500]
+15:16:21 - Got message [1400|111||PING|1500]
+15:16:21 - Got message [1200|137||BACKUP|1500]
+15:16:21 - Sending message [1500|95||PONG|1600]
+15:16:21 - Pausing for 5000 ms
+15:16:21 - Expected unsuspicious ports: [1100, 1200, 1300, 1400, 1600, 1700] and I got pongs from: [1100, 1300, 1200, 1700, 1400, 1600]
+15:16:21 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:21 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:21 - Dot number: 284126
+15:16:21 - Dot number: 284447
+15:16:21 - Dot number: 284731
+15:16:21 - Dot number: 285021
+15:16:21 - Dot number: 285305
+15:16:21 - Dot number: 285593
+15:16:21 - Sending message [1500|96||PONG|1200]
+15:16:22 - Sending message [1500|97||PONG|1400]
+15:16:22 - Sending message [1500|109||BACKUP|1700]
+15:16:22 - Sending message [1500|100||PING|1300]
+15:16:22 - Sending message [1500|106||BACKUP|1300]
+15:16:22 - Sending message [1500|99||PING|1200]
+15:16:22 - Got message [1700|59||BACKUP|1500]
+15:16:22 - Sending message [1500|102||PING|1600]
+15:16:22 - Sending message [1500|104||BACKUP|1100]
+15:16:22 - Sending message [1500|98||PING|1100]
+15:16:22 - Got message [1100|168||PING|1500]
+15:16:22 - Sending message [1500|103||PING|1700]
+15:16:22 - Got message [1300|128||PING|1500]
+15:16:22 - Sending message [1500|108||BACKUP|1600]
+15:16:22 - Sending message [1500|107||BACKUP|1400]
+15:16:22 - Sending message [1500|105||BACKUP|1200]
+15:16:23 - Got message [1300|137||PONG|1500]
+15:16:23 - Got a pong message
+15:16:23 - Sending message [1500|101||PING|1400]
+15:16:23 - Got message [1100|174||BACKUP|1500]
+15:16:23 - Got message [1700|53||PING|1500]
+15:16:23 - Sending message [1500|110||PONG|1100]
+15:16:23 - Got message [1300|134||BACKUP|1500]
+15:16:23 - Got message [1700|64||PONG|1500]
+15:16:23 - Got a pong message
+15:16:23 - Got message [1200|142||PONG|1500]
+15:16:23 - Got a pong message
+15:16:23 - Sending message [1500|111||PONG|1300]
+15:16:23 - Got message [1600|85||PONG|1500]
+15:16:23 - Got a pong message
+15:16:23 - Got message [1100|177||PONG|1500]
+15:16:23 - Got a pong message
+15:16:24 - Sending message [1500|112||PONG|1700]
+15:16:24 - Got message [1600|99||BACKUP|1500]
+15:16:24 - Got message [1600|93||PING|1500]
+15:16:25 - Got message [1200|155||BACKUP|1500]
+15:16:25 - Got message [1200|149||PING|1500]
+15:16:25 - Expected unsuspicious ports: [1100, 1200, 1300, 1400, 1600, 1700] and I got pongs from: [1300, 1700, 1200, 1600, 1100]
+15:16:25 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: [1400]
+15:16:25 - Sending ping to all unsuspicious ports, the suspicious are:  [1400]
+15:16:25 - Dot number: 753780
+15:16:25 - Dot number: 754840
+15:16:25 - Dot number: 754984
+15:16:25 - Dot number: 755440
+15:16:25 - Dot number: 755440
+15:16:26 - Got message [1100|182||SUSPICIOUS_PING|1500]
+15:16:26 - Sending message [1500|114||PONG|1200]
+15:16:26 - Sending message [1500|113||PONG|1600]
+15:16:26 - Sending message [1500|124||BACKUP|1600]
+15:16:26 - Sending message [1500|122||BACKUP|1200]
+15:16:26 - Got message [1700|71||PING|1500]
+15:16:26 - Got message [1300|146||PING|1500]
+15:16:26 - Sending message [1500|121||BACKUP|1100]
+15:16:26 - Sending message [1500|120||PING|1700]
+15:16:26 - Sending message [1500|117||PING|1200]
+15:16:26 - Sending message [1500|126||SUSPICIOUS_PONG|1100]
+15:16:26 - Pausing for 5000 ms
+15:16:26 - Sending message [1500|119||PING|1600]
+15:16:27 - Got message [1100|192||BACKUP|1500]
+15:16:27 - Got message [1100|187||PING|1500]
+15:16:27 - Sending message [1500|115|1400|SUSPICIOUS_PORT|1100]
+15:16:27 - Sending message [1500|116||PING|1100]
+15:16:27 - Sending message [1500|125||BACKUP|1700]
+15:16:27 - Got message [1700|76||BACKUP|1500]
+15:16:27 - Sending message [1500|118||PING|1300]
+15:16:27 - Sending message [1500|123||BACKUP|1300]
+15:16:27 - Got message [1600|104||PONG|1500]
+15:16:27 - Got a pong message
+15:16:27 - Got message [1300|151||BACKUP|1500]
+15:16:27 - Got message [1200|162||PONG|1500]
+15:16:27 - Got a pong message
+15:16:27 - Sending message [1500|128||PONG|1300]
+15:16:27 - Sending message [1500|127||PONG|1700]
+15:16:27 - Got message [1700|79||PONG|1500]
+15:16:27 - Got a pong message
+15:16:27 - Sending message [1500|129||PONG|1100]
+15:16:28 - Got message [1300|156||PONG|1500]
+15:16:28 - Got a pong message
+15:16:28 - Got message [1100|199||PONG|1500]
+15:16:28 - Got a pong message
+15:16:29 - Got message [1600|115||BACKUP|1500]
+15:16:29 - Got message [1600|110||PING|1500]
+15:16:29 - Got message [1200|172||BACKUP|1500]
+15:16:29 - Got message [1200|167||PING|1500]
+15:16:29 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1600, 1200, 1700, 1300, 1100]
+15:16:29 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: [1400]
+15:16:29 - Sending ping to all unsuspicious ports, the suspicious are:  [1400]
+15:16:29 - Dot number: 1063871
+15:16:29 - Dot number: 1063884
+15:16:29 - Dot number: 1063884
+15:16:29 - Dot number: 1063901
+15:16:29 - Dot number: 1064053
+15:16:30 - Sending message [1500|131||PONG|1200]
+15:16:30 - Sending message [1500|137||PING|1700]
+15:16:30 - Sending message [1500|130||PONG|1600]
+15:16:30 - Got message [1300|167||BACKUP|1500]
+15:16:30 - Sending message [1500|141||BACKUP|1600]
+15:16:30 - Got message [1700|87||PING|1500]
+15:16:30 - Sending message [1500|136||PING|1600]
+15:16:30 - Got message [1100|210||PING|1500]
+15:16:30 - Sending message [1500|134||PING|1200]
+15:16:30 - Sending message [1500|142||BACKUP|1700]
+15:16:30 - Got message [1300|162||PING|1500]
+15:16:31 - Got message [1700|92||BACKUP|1500]
+15:16:31 - Sending message [1500|140||BACKUP|1300]
+15:16:31 - Got message [1100|215||BACKUP|1500]
+15:16:31 - Got message [1700|95||PONG|1500]
+15:16:31 - Got a pong message
+15:16:31 - Sending message [1500|133||PING|1100]
+15:16:31 - Sending message [1500|135||PING|1300]
+15:16:31 - Sending message [1500|132|1400|SUSPICIOUS_PORT|1100]
+15:16:31 - Sending message [1500|138||BACKUP|1100]
+15:16:31 - Sending message [1500|139||BACKUP|1200]
+15:16:31 - Got message [1600|119||PONG|1500]
+15:16:31 - Got a pong message
+15:16:31 - Sending message [1500|143||PONG|1700]
+15:16:31 - Got message [1100|224||PONG|1500]
+15:16:31 - Got a pong message
+15:16:31 - Pausing for 5000 ms
+15:16:31 - Sending message [1500|144||PONG|1100]
+15:16:31 - Got message [1100|222|1400|SUSPICIOUS_PORT_CHECKED|1500]
+15:16:32 - Got message [1300|172||PONG|1500]
+15:16:32 - Got a pong message
+15:16:32 - Sending message [1500|145||PONG|1300]
+15:16:32 - Got message [1200|178||PONG|1500]
+15:16:32 - Got a pong message
+15:16:32 - Got message [1200|190||BACKUP|1500]
+15:16:33 - Got message [1200|185||PING|1500]
+15:16:33 - Got message [1600|131||BACKUP|1500]
+15:16:33 - Got message [1600|126||PING|1500]
+15:16:33 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1700, 1600, 1100, 1300, 1200]
+15:16:33 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: [1400]
+15:16:33 - Sending ping to all unsuspicious ports, the suspicious are:  [1400]
+15:16:33 - Dot number: 1560937
+15:16:33 - Dot number: 1560985
+15:16:33 - Dot number: 1561025
+15:16:33 - Dot number: 1561057
+15:16:33 - Dot number: 1561090
+15:16:34 - Sending message [1500|147||PONG|1600]
+15:16:34 - Sending message [1500|146||PONG|1200]
+15:16:34 - Sending message [1500|153||PING|1700]
+15:16:34 - Got message [1700|103||PING|1500]
+15:16:34 - Sending message [1500|156||BACKUP|1300]
+15:16:34 - Sending message [1500|158||BACKUP|1700]
+15:16:34 - Sending message [1500|154||BACKUP|1100]
+15:16:34 - Sending message [1500|152||PING|1600]
+15:16:34 - Got message [1300|183||BACKUP|1500]
+15:16:34 - Sending message [1500|157||BACKUP|1600]
+15:16:34 - Sending message [1500|150||PING|1200]
+15:16:34 - Got message [1100|241||BACKUP|1500]
+15:16:35 - Sending message [1500|151||PING|1300]
+15:16:35 - Sending message [1500|155||BACKUP|1200]
+15:16:35 - Got message [1700|108||BACKUP|1500]
+15:16:35 - Got message [1300|178||PING|1500]
+15:16:35 - Sending message [1500|149||PING|1100]
+15:16:35 - Sending message [1500|148|1400|SUSPICIOUS_PORT|1100]
+15:16:35 - Got message [1100|236||PING|1500]
+15:16:35 - Got message [1600|137||PONG|1500]
+15:16:35 - Got a pong message
+15:16:35 - Sending message [1500|159||PONG|1700]
+15:16:35 - Got message [1700|111||PONG|1500]
+15:16:35 - Got a pong message
+15:16:35 - Got message [1200|197||PONG|1500]
+15:16:35 - Got a pong message
+15:16:35 - Sending message [1500|160||PONG|1300]
+15:16:36 - Got message [1300|188||PONG|1500]
+15:16:36 - Got a pong message
+15:16:36 - Got message [1100|251||PONG|1500]
+15:16:36 - Got a pong message
+15:16:36 - Got message [1600|142||PING|1500]
+15:16:36 - Sending message [1500|161||PONG|1100]
+15:16:36 - Got message [1100|249|1400|SUSPICIOUS_PORT_CHECKED|1500]
+15:16:36 - Pausing for 5000 ms
+15:16:36 - Got message [1600|147||BACKUP|1500]
+15:16:37 - Got message [1200|203||PING|1500]
+15:16:37 - Sending message [1500|162||PONG|1600]
+15:16:37 - Got message [1200|208||BACKUP|1500]
+15:16:37 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1600, 1700, 1200, 1300, 1100]
+15:16:37 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: [1400]
+15:16:37 - Sending ping to all unsuspicious ports, the suspicious are:  [1400]
+15:16:37 - Dot number: 2002123
+15:16:37 - Dot number: 2002163
+15:16:37 - Dot number: 2002198
+15:16:37 - Dot number: 2002233
+15:16:37 - Dot number: 2002267
+15:16:38 - Sending message [1500|163||PONG|1200]
+15:16:38 - Got message [1100|276||BACKUP|1500]
+15:16:38 - Got message [1700|119||PING|1500]
+15:16:38 - Sending message [1500|169||PING|1700]
+15:16:38 - Sending message [1500|174||BACKUP|1700]
+15:16:38 - Sending message [1500|165||PING|1100]
+15:16:38 - Got message [1100|271||PING|1500]
+15:16:38 - Got message [1100|268||NEW_SETUP|1500]
+15:16:38 - My frame is: [Dot{x=337, y=675}, Dot{x=225, y=900}, Dot{x=450, y=900}]
+15:16:38 - Started drawing a new picture. Added a random first point at Dot{x=72, y=853}.
+15:16:38 - Sending message [1500|164|1400|SUSPICIOUS_PORT|1100]
+15:16:38 - Sending message [1500|170||BACKUP|1100]
+15:16:38 - Sending message [1500|168||PING|1600]
+15:16:38 - Sending message [1500|166||PING|1200]
+15:16:38 - Sending message [1500|167||PING|1300]
+15:16:39 - Got message [1300|199||BACKUP|1500]
+15:16:39 - Got message [1300|194||PING|1500]
+15:16:39 - Sending message [1500|171||BACKUP|1200]
+15:16:39 - Sending message [1500|172||BACKUP|1300]
+15:16:39 - Sending message [1500|175||PONG|1700]
+15:16:39 - Got message [1700|124||BACKUP|1500]
+15:16:39 - Got message [1100|261|1400|NODE_BROKEN|1500]
+15:16:39 - Sending message [1500|176||PONG|1100]
+15:16:39 - Sending message [1500|173||BACKUP|1600]
+15:16:39 - Got message [1600|151||PONG|1500]
+15:16:39 - Got a pong message
+15:16:39 - Got message [1100|279||PONG|1500]
+15:16:39 - Got a pong message
+15:16:39 - Got message [1300|204||PONG|1500]
+15:16:39 - Got a pong message
+15:16:39 - Got message [1100|291||START_DRAWING|1500]
+15:16:39 - Got message [1700|128||PONG|1500]
+15:16:39 - Got a pong message
+15:16:39 - Got message [1200|215||PONG|1500]
+15:16:39 - Got a pong message
+15:16:40 - Got message [1100|292|1400|SUSPICIOUS_PORT_CHECKED|1500]
+15:16:40 - Sending message [1500|177||PONG|1300]
+15:16:40 - Got message [1200|219||PING|1500]
+15:16:40 - Got message [1200|224||BACKUP|1500]
+15:16:40 - Got message [1600|157||PING|1500]
+15:16:41 - Got message [1600|162||BACKUP|1500]
+15:16:41 - Sending message [1500|178||PONG|1200]
+15:16:41 - Sending message [1500|179||PONG|1600]
+15:16:41 - Pausing for 5000 ms
+15:16:41 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1600, 1100, 1300, 1700, 1200]
+15:16:41 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:41 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:41 - Dot number: 405710
+15:16:41 - Dot number: 405756
+15:16:41 - Dot number: 405793
+15:16:41 - Dot number: 405910
+15:16:41 - Dot number: 405943
+15:16:42 - Got message [1100|304||BACKUP|1500]
+15:16:42 - Sending message [1500|181||PING|1200]
+15:16:42 - Sending message [1500|180||PING|1100]
+15:16:42 - Sending message [1500|187||BACKUP|1300]
+15:16:42 - Got message [1700|139||BACKUP|1500]
+15:16:42 - Got message [1300|209||PING|1500]
+15:16:42 - Sending message [1500|182||PING|1300]
+15:16:42 - Sending message [1500|183||PING|1600]
+15:16:42 - Got message [1100|299||PING|1500]
+15:16:42 - Sending message [1500|189||BACKUP|1700]
+15:16:43 - Sending message [1500|185||BACKUP|1100]
+15:16:43 - Sending message [1500|186||BACKUP|1200]
+15:16:43 - Got message [1700|134||PING|1500]
+15:16:43 - Sending message [1500|190||PONG|1300]
+15:16:43 - Sending message [1500|184||PING|1700]
+15:16:43 - Sending message [1500|188||BACKUP|1600]
+15:16:43 - Got message [1300|214||BACKUP|1500]
+15:16:43 - Got message [1100|309|1400|SUSPICIOUS_PORT_CHECKED|1500]
+15:16:43 - Got message [1100|310||PONG|1500]
+15:16:43 - Got a pong message
+15:16:43 - Got message [1600|165||PONG|1500]
+15:16:43 - Got a pong message
+15:16:43 - Got message [1200|229||PONG|1500]
+15:16:43 - Got a pong message
+15:16:43 - Sending message [1500|192||PONG|1700]
+15:16:44 - Got message [1700|143||PONG|1500]
+15:16:44 - Got a pong message
+15:16:44 - Sending message [1500|191||PONG|1100]
+15:16:44 - Got message [1300|217||PONG|1500]
+15:16:44 - Got a pong message
+15:16:45 - Got message [1200|234||PING|1500]
+15:16:45 - Got message [1200|239||BACKUP|1500]
+15:16:45 - Got message [1600|177||BACKUP|1500]
+15:16:45 - Got message [1600|172||PING|1500]
+15:16:45 - Sending message [1500|193||PONG|1200]
+15:16:45 - Sending message [1500|194||PONG|1600]
+15:16:45 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1100, 1600, 1200, 1700, 1300]
+15:16:45 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:45 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:45 - Dot number: 856888
+15:16:45 - Dot number: 856888
+15:16:45 - Dot number: 856888
+15:16:45 - Dot number: 856888
+15:16:45 - Dot number: 856888
+15:16:46 - Sending message [1500|203||BACKUP|1600]
+15:16:46 - Sending message [1500|201||BACKUP|1200]
+15:16:46 - Sending message [1500|204||BACKUP|1700]
+15:16:46 - Got message [1700|149||PING|1500]
+15:16:46 - Got message [1100|317||PING|1500]
+15:16:46 - Got message [1100|322||BACKUP|1500]
+15:16:46 - Pausing for 5000 ms
+15:16:46 - Sending message [1500|200||BACKUP|1100]
+15:16:47 - Sending message [1500|195||PING|1100]
+15:16:47 - Sending message [1500|197||PING|1300]
+15:16:47 - Sending message [1500|202||BACKUP|1300]
+15:16:47 - Sending message [1500|199||PING|1700]
+15:16:47 - Sending message [1500|205||PONG|1700]
+15:16:47 - Got message [1700|154||BACKUP|1500]
+15:16:47 - Got message [1300|229||BACKUP|1500]
+15:16:47 - Got message [1300|224||PING|1500]
+15:16:47 - Sending message [1500|196||PING|1200]
+15:16:47 - Sending message [1500|198||PING|1600]
+15:16:47 - Sending message [1500|206||PONG|1100]
+15:16:47 - Got message [1100|329||STOP_DRAWING|1500]
+15:16:47 - Stopped drawing.
+15:16:47 - Got message [1100|330||PONG|1500]
+15:16:47 - Got a pong message
+15:16:48 - Got message [1300|234||PONG|1500]
+15:16:48 - Got a pong message
+15:16:48 - Got message [1200|246||PONG|1500]
+15:16:48 - Got a pong message
+15:16:48 - Sending message [1500|207||PONG|1300]
+15:16:48 - Got message [1600|192||BACKUP|1500]
+15:16:48 - Got message [1700|158||PONG|1500]
+15:16:48 - Got a pong message
+15:16:48 - Got message [1600|187||PING|1500]
+15:16:48 - Got message [1600|183||PONG|1500]
+15:16:48 - Got a pong message
+15:16:48 - Got message [1200|249||PING|1500]
+15:16:49 - Sending message [1500|208||PONG|1600]
+15:16:49 - Got message [1200|254||BACKUP|1500]
+15:16:49 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1100, 1300, 1200, 1700, 1600]
+15:16:49 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:49 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:49 - Dot number: 1039078
+15:16:49 - Dot number: 1039078
+15:16:49 - Dot number: 1039078
+15:16:49 - Dot number: 1039078
+15:16:49 - Dot number: 1039078
+15:16:50 - Sending message [1500|209||PONG|1200]
+15:16:50 - Got message [1300|239||PING|1500]
+15:16:50 - Sending message [1500|217||BACKUP|1300]
+15:16:50 - Got message [1100|336||PING|1500]
+15:16:50 - Sending message [1500|216||BACKUP|1200]
+15:16:50 - Sending message [1500|214||PING|1700]
+15:16:50 - Got message [1100|341||BACKUP|1500]
+15:16:50 - Got message [1700|164||PING|1500]
+15:16:50 - Sending message [1500|215||BACKUP|1100]
+15:16:51 - Got message [1300|244||BACKUP|1500]
+15:16:51 - Sending message [1500|219||BACKUP|1700]
+15:16:51 - Sending message [1500|211||PING|1200]
+15:16:51 - Sending message [1500|218||BACKUP|1600]
+15:16:51 - Sending message [1500|212||PING|1300]
+15:16:51 - Sending message [1500|213||PING|1600]
+15:16:51 - Sending message [1500|210||PING|1100]
+15:16:51 - Sending message [1500|221||PONG|1100]
+15:16:51 - Got message [1700|169||BACKUP|1500]
+15:16:51 - Got message [1700|173||PONG|1500]
+15:16:51 - Got a pong message
+15:16:51 - Sending message [1500|220||PONG|1300]
+15:16:51 - Got message [1200|260||PONG|1500]
+15:16:51 - Got a pong message
+15:16:51 - Pausing for 5000 ms
+15:16:52 - Got message [1100|345||PONG|1500]
+15:16:52 - Got a pong message
+15:16:52 - Got message [1300|248||PONG|1500]
+15:16:52 - Got a pong message
+15:16:52 - Sending message [1500|222||PONG|1700]
+15:16:52 - Got message [1200|264||PING|1500]
+15:16:52 - Got message [1600|197||PONG|1500]
+15:16:52 - Got a pong message
+15:16:53 - Got message [1600|202||PING|1500]
+15:16:53 - Got message [1200|269||BACKUP|1500]
+15:16:53 - Got message [1600|207||BACKUP|1500]
+15:16:53 - Sending message [1500|223||PONG|1200]
+15:16:53 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1700, 1200, 1100, 1300, 1600]
+15:16:53 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:53 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:53 - Dot number: 1039078
+15:16:53 - Dot number: 1039078
+15:16:53 - Dot number: 1039078
+15:16:53 - Dot number: 1039078
+15:16:53 - Dot number: 1039078
+15:16:54 - Sending message [1500|224||PONG|1600]
+15:16:54 - Sending message [1500|228||PING|1600]
+15:16:54 - Sending message [1500|230||BACKUP|1100]
+15:16:54 - Sending message [1500|233||BACKUP|1600]
+15:16:54 - Sending message [1500|229||PING|1700]
+15:16:54 - Got message [1100|351||PING|1500]
+15:16:55 - Got message [1100|356||BACKUP|1500]
+15:16:55 - Got message [1300|254||PING|1500]
+15:16:55 - Sending message [1500|234||BACKUP|1700]
+15:16:55 - Got message [1700|184||BACKUP|1500]
+15:16:55 - Sending message [1500|226||PING|1200]
+15:16:55 - Sending message [1500|231||BACKUP|1200]
+15:16:55 - Got message [1300|259||BACKUP|1500]
+15:16:55 - Sending message [1500|232||BACKUP|1300]
+15:16:55 - Sending message [1500|225||PING|1100]
+15:16:55 - Got message [1700|179||PING|1500]
+15:16:55 - Sending message [1500|227||PING|1300]
+15:16:55 - Got message [1600|211||PONG|1500]
+15:16:55 - Got a pong message
+15:16:55 - Sending message [1500|235||PONG|1100]
+15:16:55 - Got message [1700|188||PONG|1500]
+15:16:55 - Got a pong message
+15:16:56 - Sending message [1500|236||PONG|1300]
+15:16:56 - Got message [1300|264||PONG|1500]
+15:16:56 - Got a pong message
+15:16:56 - Got message [1200|274||PONG|1500]
+15:16:56 - Got a pong message
+15:16:56 - Got message [1100|359||PONG|1500]
+15:16:56 - Got a pong message
+15:16:56 - Sending message [1500|237||PONG|1700]
+15:16:56 - Got message [1600|217||PING|1500]
+15:16:56 - Pausing for 5000 ms
+15:16:57 - Got message [1600|222||BACKUP|1500]
+15:16:57 - Got message [1200|284||BACKUP|1500]
+15:16:57 - Got message [1200|279||PING|1500]
+15:16:57 - Sending message [1500|238||PONG|1600]
+15:16:57 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1600, 1700, 1300, 1200, 1100]
+15:16:57 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:16:57 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:16:57 - Dot number: 1039078
+15:16:57 - Dot number: 1039078
+15:16:57 - Dot number: 1039078
+15:16:57 - Dot number: 1039078
+15:16:57 - Dot number: 1039078
+15:16:58 - Got message [1100|365||REQUEST_RESULT|1500]
+15:16:58 - Sending message [1500|240||PING|1100]
+15:16:58 - Got message [1300|275||BACKUP|1500]
+15:16:58 - Got message [1100|370||PING|1500]
+15:16:58 - Sending message [1500|247||BACKUP|1300]
+15:16:58 - Sending message [1500|243||PING|1600]
+15:16:58 - Sending message [1500|239||PONG|1200]
+15:16:58 - Sending message [1500|245||BACKUP|1100]
+15:16:58 - Sending message [1500|244||PING|1700]
+15:16:58 - Sending message [1500|248||BACKUP|1600]
+15:16:58 - Sending message [1500|241||PING|1200]
+15:16:58 - Got message [1700|194||PING|1500]
+15:16:58 - Sending message [1500|246||BACKUP|1200]
+15:16:58 - Sending message [1500|242||PING|1300]
+15:16:59 - Sending message [1500|249||BACKUP|1700]
+15:16:59 - Got message [1100|378||PONG|1500]
+15:16:59 - Got a pong message
+15:16:59 - Got message [1300|270||PING|1500]
+15:16:59 - Sending message [1500|251||PONG|1100]
+15:16:59 - Got message [1700|199||BACKUP|1500]
+15:16:59 - Sending message [1500|250||SEND_RESULT|1100]
+15:16:59 - Got message [1100|375||BACKUP|1500]
+15:16:59 - Got message [1200|290||PONG|1500]
+15:16:59 - Got a pong message
+15:16:59 - Sending message [1500|252||PONG|1700]
+15:16:59 - Got message [1600|227||PONG|1500]
+15:16:59 - Got a pong message
+15:16:59 - Got message [1700|202||PONG|1500]
+15:16:59 - Got a pong message
+15:17:00 - Sending message [1500|253||PONG|1300]
+15:17:00 - Got message [1300|279||PONG|1500]
+15:17:00 - Got a pong message
+15:17:00 - Got message [1200|295||PING|1500]
+15:17:00 - Got message [1600|233||PING|1500]
+15:17:01 - Got message [1200|300||BACKUP|1500]
+15:17:01 - Got message [1600|238||BACKUP|1500]
+15:17:01 - Sending message [1500|255||PONG|1600]
+15:17:01 - Pausing for 5000 ms
+15:17:01 - Sending message [1500|254||PONG|1200]
+15:17:01 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1100, 1200, 1600, 1700, 1300]
+15:17:01 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:17:01 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:17:01 - Dot number: 1039078
+15:17:01 - Dot number: 1039078
+15:17:01 - Dot number: 1039078
+15:17:01 - Dot number: 1039078
+15:17:01 - Dot number: 1039078
+15:17:02 - Sending message [1500|260||PING|1700]
+15:17:02 - Sending message [1500|258||PING|1300]
+15:17:02 - Got message [1100|385||PING|1500]
+15:17:02 - Sending message [1500|265||BACKUP|1700]
+15:17:02 - Sending message [1500|256||PING|1100]
+15:17:02 - Got message [1700|214||BACKUP|1500]
+15:17:02 - Sending message [1500|262||BACKUP|1200]
+15:17:02 - Got message [1100|390||BACKUP|1500]
+15:17:02 - Got message [1300|290||BACKUP|1500]
+15:17:02 - Got message [1700|209||PING|1500]
+15:17:03 - Got message [1300|285||PING|1500]
+15:17:03 - Sending message [1500|259||PING|1600]
+15:17:03 - Sending message [1500|264||BACKUP|1600]
+15:17:03 - Sending message [1500|261||BACKUP|1100]
+15:17:03 - Sending message [1500|266||PONG|1100]
+15:17:03 - Got message [1100|394||PONG|1500]
+15:17:03 - Got a pong message
+15:17:03 - Sending message [1500|263||BACKUP|1300]
+15:17:03 - Sending message [1500|257||PING|1200]
+15:17:03 - Got message [1300|293||PONG|1500]
+15:17:03 - Got a pong message
+15:17:03 - Got message [1700|217||PONG|1500]
+15:17:03 - Got a pong message
+15:17:03 - Sending message [1500|267||PONG|1700]
+15:17:03 - Sending message [1500|268||PONG|1300]
+15:17:04 - Got message [1600|244||PONG|1500]
+15:17:04 - Got a pong message
+15:17:04 - Got message [1200|307||PONG|1500]
+15:17:04 - Got a pong message
+15:17:04 - Got message [1600|248||PING|1500]
+15:17:05 - Got message [1200|315||BACKUP|1500]
+15:17:05 - Got message [1600|253||BACKUP|1500]
+15:17:05 - Got message [1200|310||PING|1500]
+15:17:05 - Sending message [1500|269||PONG|1600]
+15:17:06 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: [1100, 1300, 1700, 1600, 1200]
+15:17:06 - Sending SuspiciousPortMessages to 1100, the suspicious ports are: []
+15:17:06 - Sending ping to all unsuspicious ports, the suspicious are:  []
+15:17:06 - Dot number: 1039078
+15:17:06 - Dot number: 1039078
+15:17:06 - Dot number: 1039078
+15:17:06 - Dot number: 1039078
+15:17:06 - Dot number: 1039078
+15:17:06 - Sending message [1500|270||PONG|1200]
+15:17:06 - Got message [1300|305||BACKUP|1500]
+15:17:06 - Got message [1100|400||PING|1500]
+15:17:06 - Sending message [1500|271||PING|1100]
+15:17:06 - Stopping...
+15:17:06 - Sending message [1500|280||BACKUP|1700]
+15:17:06 - Sending message [1500|273||PING|1300]
+15:17:06 - Sending message [1500|275||PING|1700]
+15:17:06 - Got message [1100|405||BACKUP|1500]
+15:17:07 - Sending message [1500|279||BACKUP|1600]
+15:17:07 - Sending message [1500|272||PING|1200]
+15:17:07 - Sending message [1500|278||BACKUP|1300]
+15:17:07 - Sending message [1500|276||BACKUP|1100]
+15:17:07 - Sending message [1500|281||PONG|1100]
+15:17:07 - Sending message [1500|277||BACKUP|1200]
+15:17:07 - Sending message [1500|274||PING|1600]
+15:17:10 - Expected unsuspicious ports: [1100, 1200, 1300, 1600, 1700] and I got pongs from: []

@@ -1,0 +1,31 @@
+19:15:29 - Added all of the pictures to draw. [Picture{name='first_job', dot_count=3, proportion=0.5, width=900, height=900, startingDots=[Dot{x=450, y=0}, Dot{x=0, y=900}, Dot{x=900, y=900}]}]
+19:15:29 - Starting servent ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}
+19:15:29 - Pausing for 20000 ms
+19:15:30 - Sending message [1400|0|1400|NEW_NODE|1100]
+19:15:31 - Got message [1100|8||WELCOME|1400]
+Added a neighbor that welcomed me with port: 1100. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}] as neighbors.
+19:15:31 - Got message [1100|7|1400|NEW_NODE|1400]
+Added new node with port: 1400. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}] as neighbors.
+19:15:32 - Sending message [1400|1||WELCOME|1400]
+19:15:32 - Got message [1400|1||WELCOME|1400]
+Added a neighbor that welcomed me with port: 1400. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}] as neighbors.
+19:15:32 - Got message [1200|3||WELCOME|1400]
+Added a neighbor that welcomed me with port: 1200. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}] as neighbors.
+19:15:32 - Got message [1300|2||WELCOME|1400]
+Added a neighbor that welcomed me with port: 1300. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}] as neighbors.
+19:15:41 - Got message [1100|11|1500|NEW_NODE|1400]
+Added new node with port: 1500. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}] as neighbors.
+19:15:41 - Sending message [1400|2||WELCOME|1500]
+19:15:49 - Pausing for 5000 ms
+19:15:54 - Pausing for 5000 ms
+19:15:55 - Got message [1100|15||START_DRAWING|1400]
+19:15:55 - My frame is: [Dot{x=112, y=675}, Dot{x=0, y=900}, Dot{x=225, y=900}]
+19:15:55 - Started drawing a new picture. Added a random first point at Dot{x=868, y=480}.
+19:15:59 - Pausing for 5000 ms
+19:16:00 - Got message [1100|19||STOP_DRAWING|1400]
+19:16:00 - Stopped drawing.
+19:16:04 - Pausing for 5000 ms
+19:16:05 - Got message [1100|23||REQUEST_RESULT|1400]
+19:16:05 - Sending message [1400|3||SEND_RESULT|1100]
+19:16:09 - Pausing for 5000 ms
+19:16:14 - Stopping...

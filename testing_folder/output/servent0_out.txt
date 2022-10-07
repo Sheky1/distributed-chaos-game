@@ -1,0 +1,64 @@
+19:14:59 - Added all of the pictures to draw. [Picture{name='first_job', dot_count=3, proportion=0.5, width=900, height=900, startingDots=[Dot{x=450, y=0}, Dot{x=0, y=900}, Dot{x=900, y=900}]}]
+19:14:59 - Starting servent ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}
+19:14:59 - Pausing for 50000 ms
+19:14:59 - First node in the system.
+19:15:10 - Got message [1200|0|1200|NEW_NODE|1100]
+19:15:10 - All picture parts are :{}
+Added new node with port: 1200. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}] as neighbors.
+19:15:11 - Sending message [1100|0|1200|NEW_NODE|1200]
+19:15:12 - Sending message [1100|1||WELCOME|1200]
+19:15:20 - Got message [1300|0|1300|NEW_NODE|1100]
+19:15:20 - All picture parts are :{1200=[Dot{x=225, y=450}, Dot{x=0, y=900}, Dot{x=450, y=900}], 1300=[Dot{x=675, y=450}, Dot{x=450, y=900}, Dot{x=900, y=900}], 1100=[Dot{x=450, y=0}, Dot{x=225, y=450}, Dot{x=675, y=450}]}
+Added new node with port: 1300. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}] as neighbors.
+19:15:21 - Sending message [1100|2|1300|NEW_NODE|1200]
+19:15:21 - Sending message [1100|4||WELCOME|1300]
+19:15:21 - Sending message [1100|3|1300|NEW_NODE|1300]
+19:15:30 - Got message [1400|0|1400|NEW_NODE|1100]
+19:15:30 - All picture parts are :{}
+Added new node with port: 1400. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}] as neighbors.
+19:15:31 - Sending message [1100|8||WELCOME|1400]
+19:15:31 - Sending message [1100|7|1400|NEW_NODE|1400]
+19:15:31 - Sending message [1100|6|1400|NEW_NODE|1300]
+19:15:31 - Sending message [1100|5|1400|NEW_NODE|1200]
+19:15:40 - Got message [1500|0|1500|NEW_NODE|1100]
+19:15:40 - Splitting a node: {}
+19:15:40 - All picture parts are :{1200=[Dot{x=225, y=450}, Dot{x=112, y=675}, Dot{x=337, y=675}], 1400=[Dot{x=112, y=675}, Dot{x=0, y=900}, Dot{x=225, y=900}], 1500=[Dot{x=337, y=675}, Dot{x=225, y=900}, Dot{x=450, y=900}]}
+Added new node with port: 1500. I currently have [ServentInfo{ipAddress='127.0.0.1', listenerPort=1100}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1200}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1300}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1400}, ServentInfo{ipAddress='127.0.0.1', listenerPort=1500}] as neighbors.
+19:15:41 - Sending message [1100|11|1500|NEW_NODE|1400]
+19:15:41 - Sending message [1100|13||WELCOME|1500]
+19:15:41 - Sending message [1100|9|1500|NEW_NODE|1200]
+19:15:41 - Sending message [1100|12|1500|NEW_NODE|1500]
+19:15:41 - Sending message [1100|10|1500|NEW_NODE|1300]
+19:15:49 - Pausing for 5000 ms
+19:15:54 - Pausing for 5000 ms
+19:15:54 - My frame is: [Dot{x=450, y=0}, Dot{x=225, y=450}, Dot{x=675, y=450}]
+19:15:54 - Started drawing a new picture. Added a random first point at Dot{x=421, y=710}.
+19:15:55 - Sending message [1100|15||START_DRAWING|1400]
+19:15:55 - Sending message [1100|17||START_DRAWING|1500]
+19:15:55 - Sending message [1100|14||START_DRAWING|1200]
+19:15:55 - Sending message [1100|16||START_DRAWING|1300]
+19:15:59 - Stopped drawing.
+19:15:59 - Pausing for 5000 ms
+19:16:00 - Sending message [1100|18||STOP_DRAWING|1200]
+19:16:00 - Sending message [1100|21||STOP_DRAWING|1500]
+19:16:00 - Sending message [1100|19||STOP_DRAWING|1400]
+19:16:00 - Sending message [1100|20||STOP_DRAWING|1300]
+19:16:04 - Waiting: 0
+19:16:05 - Sending message [1100|23||REQUEST_RESULT|1400]
+19:16:05 - Waiting: 0
+19:16:05 - Sending message [1100|24||REQUEST_RESULT|1300]
+19:16:05 - Sending message [1100|22||REQUEST_RESULT|1200]
+19:16:06 - Sending message [1100|25||REQUEST_RESULT|1500]
+19:16:06 - Got message [1400|3||SEND_RESULT|1100]
+19:16:06 - Updating results
+19:16:06 - Waiting: 1
+19:16:07 - Got message [1200|5||SEND_RESULT|1100]
+19:16:07 - Updating results
+19:16:07 - Got message [1300|4||SEND_RESULT|1100]
+19:16:07 - Updating results
+19:16:07 - Waiting: 3
+19:16:07 - Got message [1500|2||SEND_RESULT|1100]
+19:16:07 - Updating results
+19:16:12 - Pausing for 5000 ms
+19:16:17 - Pausing for 5000 ms
+19:16:22 - Stopping...
